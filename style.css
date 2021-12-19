@@ -1,0 +1,113 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    color: black;
+
+}
+.navbar{
+    padding: .8em;
+    background-color: blue;
+}
+.navbar-nav li{
+    padding-right:20px ;
+}
+.nav-link{
+    font-size: 18px;
+}
+.carousel-inner img{
+    width: 600px;
+    height: 600px;
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px black;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+.btn-primary {
+    background-color: #6648b1 !important;
+    border: 1px solid #6648b1 !important;
+}
+.btn-primary:hover{
+    background-color: #563d7c !important;
+    border: 1px solid #563d7c !important;
+}
+.jumbotron{
+    padding: 5px;
+    background-color: #e9ecef;
+}
+.padding-class{
+    padding-bottom: 2rem;
+    background-color: rgb(214, 212, 212);
+}
+.main-photo{
+    width: 450px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.main-photo .img {
+    flex: content;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.responsive-photo{
+    width: 500px;
+    height: 300px;
+}
+.padding-class{
+    padding-bottom: 2rem;
+}
+.welcome{
+    margin: 0 auto;
+    padding-top: 2rem;
+ }
+ .welcome hr{
+     border-top: 2px solid #b4b4b4;
+     width: 95%;
+     margin-top: 0.3rem;
+     margin-bottom: 1rem;
+ }
+ .card{
+     display: inline-block;
+     text-align:justify;
+ }
+ .card-img-top{
+     width: 401px;
+     height: 240px;
+     border-radius: 15px;
+ }
+ footer{
+    background-color: #cccbcb;
+    color: #000000;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    text-align:center ;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color: #00BFFF;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: #CD853f;
+}
+.fa-google-plus-g{
+    color:green
+}
